@@ -1,0 +1,57 @@
+# Arquivos de configuração do IDE
+/.idea/
+*.sublime-workspace
+*.sublime-project
+.vscode/
+nbproject/
+
+# Dependências
+/vendor/
+/node_modules/
+
+# Arquivos específicos do sistema operacional
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Arquivos de log
+*.log
+*.sql
+*.sqlite
+
+# Arquivos temporários
+/temp/
+/tmp/
+/cache/
+/vendor/*/.git/
+
+# Arquivos de ambiente
+.env
+.env.local
+.env.*.local
+
+# Pastas de build
+/build/
+/dist/
+
+# Outros arquivos que podem ser sensíveis ou são gerados automaticamente
+/config.php
+/parameters.yml
+.htaccess
+/robots.txt
+
+# Arquivos de sessão
+/sessions/
+/sess_*
+
+# Pasta de uploads (considerar caso a caso; pode ser necessário incluir)
+#/web/uploads/
+
+# Arquivos Composer
+/composer.lock
+/composer.phar
+
+# Arquivos e pastas relacionados a testes
+/phpunit.xml
+/phpunit.xml.dist
+/tests/
